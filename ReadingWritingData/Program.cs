@@ -18,7 +18,7 @@ namespace ReadingWritingData
             if (!File.Exists(filePath))
             {
                 string content = "This is a text file." + Environment.NewLine;
-                Console.WriteLine("Creating the file...");
+                Console.WriteLine("Creating the file... update1 for GitHub");
                 File.WriteAllText(filePath, content);
             }
 
